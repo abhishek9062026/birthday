@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Birthday Surprise ❤️</title>
+
+<link rel="stylesheet" href="style.css">
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+<div class="background"></div>
+
+<div class="login-box" id="login">
+
+<h1>🔒 Birthday Surprise</h1>
+
+<p>Enter Your 4 Digit Password</p>
+
+<input
+type="password"
+maxlength="4"
+id="password"
+placeholder="****">
+
+<button onclick="checkPassword()">
+Unlock ❤️
+</button>
+
+<p id="error"></p>
+
+</div>
+
+
+<div class="main" id="main">
+
+<audio id="music" autoplay loop>
+<source src="happy-birthday.mp3" type="audio/mpeg">
+</audio>
+
+<h1 class="title">
+🎉 Happy Birthday My Favourite Person ❤️
+</h1>
+
+<p class="message">
+
+Happy Birthday to my dearest bestie! 🥰💖
+
+You are not just my best friend;
+you are my safe place,
+my biggest support,
+and one of the most beautiful parts of my life.
+
+Thank you for always being there.
+
+May your life always be filled with happiness,
+love,
+success,
+peace,
+and beautiful memories.
+
+Keep smiling forever. ❤️
+
+</p>
+
+<button class="surprise" onclick="hearts()">
+
+🎁 Open Your Surprise
+
+</button>
+
+<div id="heart-container"></div>
+
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.9.2/dist/confetti.browser.min.js"></script>
+
+<script src="script.js"></script>
+
+</body>
+</html>
